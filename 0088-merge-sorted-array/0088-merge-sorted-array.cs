@@ -1,6 +1,6 @@
 public class Solution {
     public void Merge(int[] nums1, int m, int[] nums2, int n) {
-          int[] nums3 = new int[m + n];
+        int[] nums3 = new int[m + n];
         int i = 0, j = 0, idx = 0;
         while (i < m && j < n)
         {
